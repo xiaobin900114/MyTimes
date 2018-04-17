@@ -1,0 +1,105 @@
+div {
+  border: 1px solid;
+}
+
+p {
+  font-family: Georgia;
+ font-size: 17px;
+ color: black;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid;
+  padding-bottom: 20px;
+  width: 100%;
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.header p {
+  color: MediumAquamarine;
+  clear: right;
+}
+
+.header img {
+  float: left;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.nav a {
+  color: black;
+}
+
+.nav span {
+  display: inline-block;
+  margin: 20px;
+}
+
+.column {
+  display: flex;
+  align-content: center;
+  border: 1px solid;
+}
+
+.large {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  width: 630px;
+  margin: 10px;
+}
+
+.large .top .image {
+  background-image: url(../images/img-story-main.png);
+}
+
+.bottom {
+  align-content: center;
+}
+
+.right {
+  width: 280px;
+  display: inline-block;
+}
+
+.left {
+  width: 280px;
+  display: inline-block;
+}
+
+.medium {
+  border: 1px solid;
+  width: 300px;
+  margin: 10px;
+}
+
+.small {
+  border: 1px solid;
+  width: 240px;
+  margin: 10px;
+}
+
+.span .gray {
+  display: block;
+}
+
+.image {
+  color: white;
+}
